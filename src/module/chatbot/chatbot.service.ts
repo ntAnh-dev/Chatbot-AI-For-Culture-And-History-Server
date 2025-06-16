@@ -6,7 +6,7 @@ import { Model } from 'mongoose';
 import { Conversation } from './shema/conversation.schema';
 import { v4 as uuidv4 } from 'uuid';
 
-const apiUrl = 'http://host.docker.internal:8000';
+const apiUrl = 'http://python:8000';
 
 @Injectable()
 export class ChatbotService {
